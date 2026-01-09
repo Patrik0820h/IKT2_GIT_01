@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    padding: 10px;
+    background-color: #3939c8;
+    color: white;
+}
+
+article {
+    background-color: #aaaaff;
+    color: black;
+    padding: 20px;
+}
+
+footer {
+    height: 150px;
+    padding: 20px;
+    background-color: #193968;
+    color: white;
+    border-top: 1px solid white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
