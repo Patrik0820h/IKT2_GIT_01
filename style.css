@@ -23,8 +23,34 @@ footer {
     background-color: #193968;
     color: white;
     border-top: 1px solid white;
-
+ 
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.image-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 150px;
+    background-color: #aaaaff;
+}
+.p1
+{
+    font-size: 20px;
+}
+@media (max-width: 920px)
+{
+    .image-container
+    {
+        display: flex;
+        justify-content: space-evenly;
+        height: auto;
+    }
+    .kep
+    {
+        height: 100px;
+        width: 100px;
+    }
 }
